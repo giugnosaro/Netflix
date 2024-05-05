@@ -1,0 +1,142 @@
+.margineSinistra {
+  margin-left: 36% !important;
+  border-bottom: 1px solid white;
+  width: 37%;
+}
+
+#avatar {
+  margin-left: 36%;
+  margin-top: 2%;
+  width: auto;
+}
+
+#avatar img {
+  width: 10em !important;
+}
+
+#testo {
+  width: 12em;
+  height: 3em;
+  background-color: gray;
+}
+
+input::placeholder {
+  color: white;
+  padding: 0.5em;
+}
+
+#pColore {
+  color: white;
+  margin-top: 2em;
+}
+
+#edit {
+  color: aliceblue;
+  position: relative;
+  bottom: -36%;
+  left: -84.3%;
+}
+#bordiBot {
+  border-bottom: 1px solid white;
+  width: 39%;
+}
+
+.margine {
+  border-bottom: 1px solid white;
+  width: 30%;
+}
+
+.margine2 {
+  width: 29%;
+}
+
+.bottone1 {
+  background-color: gray;
+  color: white;
+  margin-bottom: 2%;
+  margin-left: 10px;
+}
+.bottone2 {
+  border: 1px solid #808081;
+  width: 17%;
+  text-align: center;
+  color: #808080;
+  margin-bottom: 2em;
+}
+
+#margin {
+  margin-left: 10%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.margine p {
+  margin: 10px;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  visibility: hidden;
+  position: absolute;
+}
+
+.custom-checkbox .checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  background-color: #808080;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox:hover .checkmark {
+  background-color: #ccc;
+}
+
+.custom-checkbox .checkmark {
+  transition: background-color 0.2s;
+}
+
+#grand {
+  width: 10em;
+  height: 3em;
+}
+
+#fine {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin-left: 9%;
+  margin-right: auto;
+}
+
+.delete {
+  width: 14em;
+  height: 3em;
+}
+
+#bordo {
+  margin-left: 38%;
+  margin-right: 25%;
+  margin-top: 1%;
+}

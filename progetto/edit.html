@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edit Netflix</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./sass.css" />
+    <link rel="stylesheet" href="../progetto/css/edit.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <div class="w-50">
+        <img class="w-25" src="../assets/netflix_logo.png" alt="logo" />
+      </div>
+      <div class="d-flex margineSinistra">
+        <h1 class="text-light mt-8">Edit Profile</h1>
+      </div>
+    </header>
+    <main>
+      <div id="avatar" class="d-flex">
+        <div>
+          <img src="../assets/avatar.png" alt="avatar" />
+          <i class="bi bi-pencil-square" id="edit"></i>
+        </div>
+        <div class="d-flex flex-column align-items-baseline" id="bordiBot">
+          <input type="text" id="testo" placeholder="Strive Student" />
+          <p id="pColore" class="d-flex flex-column mt-5">
+            Linguage:
+            <button
+              class="btn btn-outline-light dropdown-toggle bg-black"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              English
+            </button>
+          </p>
+        </div>
+      </div>
+      <div class="conteiner">
+        <div class="row row-cols-1">
+          <div id="margin" class="col d-flex justify-content-center">
+            <div id="pColore" class="margine">
+              <p>Maturity Settings:</p>
+              <button class="bottone1">ALL MATURITY RATINGS</button>
+              <p>Show titles of all maturity ratings for this profile.</p>
+              <a class="nav-link" href=""> <p class="bottone2">E D I T</p></a>
+            </div>
+          </div>
+          <div id="margin" class="col d-flex justify-content-center">
+            <div id="pColore" class="margine2">
+              <p>Autoplat controls</p>
+              <p>
+                <label class="custom-checkbox">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  Autoplay next episode in a series on all devices.
+                </label>
+              </p>
+              <p>
+                <label class="custom-checkbox">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                  Autoplay previews while browsing on all devices.
+                </label>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom" id="bordo"></div>
+      <div class="conteiner mt-4">
+        <div class="row">
+          <div class="col" id="fine">
+            <button type="button" class="btn btn-outline-light" id="grand">
+              SAVE
+            </button>
+            <button type="button" class="btn btn-outline-light" id="grand">
+              CANCEL
+            </button>
+            <button type="button" class="btn btn-outline-light delete">
+              DELETE PROFILE
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
